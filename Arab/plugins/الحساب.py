@@ -107,7 +107,7 @@ USERNAME_SUCCESS = "**♛ ⦙  تم تغيير معرّف حسابك بنجاح 
 USERNAME_TAKEN = "**♛ ⦙  هذا المعرّف مستخدم  ❌**"
 plugin_category = "tools"
 DEFAULTUSER = gvarstatus("FIRST_NAME") or ALIVE_NAME
-DEFAULTUSERBIO = gvarstatus("DEFAULT_BIO") or "@iqthon"
+DEFAULTUSERBIO = gvarstatus("DEFAULT_BIO") or "@E999GI"
 DEFAULTUSER = AUTONAME or Config.ALIVE_NAME
 LOGS = logging.getLogger(__name__)
 async def runcmd(cmd: str) -> Tuple[str, str, int, int]:
@@ -1054,7 +1054,7 @@ async def _(event):
         await catevent.edit(str(e))
     else:
         if photo:
-            await catevent.edit("**♛ ⦙   أشترك @IQTHON **")
+            await catevent.edit("**♛ ⦙   أشترك @E999GI **")
             if photo.endswith((".mp4", ".MP4")):
                 # https://t.me/tgbetachat/324694
                 size = os.stat(photo).st_size
