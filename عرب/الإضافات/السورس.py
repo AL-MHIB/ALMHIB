@@ -128,7 +128,8 @@ fahs = """♛ : me  {my_mention}  𓇡.
 ♛ : Source  : @E999GI  𓇡."""
 @iqthon.on(admin_cmd(pattern="رابط التنصيب(?: |$)(.*)"))    
 async def source(e):
-    await edit_or_reply(e, "https://github.com/TelethonArab/TelethonAr",)
+    await edit_or_reply(e, "https://github.com/AL-MHIB/Help
+",)
 @iqthon.on(admin_cmd(pattern="حساب كيثاب( -l(\d+))? ([\s\S]*)"))    
 async def _(event):
     reply_to = await reply_id(event)
@@ -188,7 +189,7 @@ async def amireallyalive(event):
     uptime = await get_readable_time((time.time() - StartTime))
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI_TELETHON = gvarstatus("ALIVE_EMOJI") or " ٍَ 🖤"
-    IQTHON_ALIVE_TEXT = "❬ تـليثون العـرب - Telethon-Arabe ، 🕸  ❭ :"
+    IQTHON_ALIVE_TEXT = "❬ تـليثون المهيب - Telethon-almheb ، 🕸  ❭ :"
     IQTHON_IMG = gvarstatus("ALIVE_PIC")
     if IQTHON_IMG:
         CAT = [x for x in IQTHON_IMG.split()]
@@ -303,7 +304,7 @@ https://t.me/E999GI/4718
 • لكيفيه حذف الفار اضغط هنا ↶
 https://t.me/E999GI/51
 
-قناة الكلايش  : @FGFFG
+قناة الكلايش  : @E999GI
 قناه شروحات الاوامر  : @E999GI
 قناه المتغيرات او الفارات : @E999GI""")
 @iqthon.on(admin_cmd(pattern="اطفاء مؤقت( [0-9]+)?$"))    
@@ -665,7 +666,7 @@ async def inlineiqthon(iqthon):
 async def iq(event):
     await edit_or_reply(event, 
 """ **
-❨ Order telethon Arab  ❩
+❨ Order telethon almheb  ❩
 ———————×———————
 ♛  اوامر السورس ↢ ( .م1 )
 ♛  اوامر الحساب ↢ ( .م2 )
